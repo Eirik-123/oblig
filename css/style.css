@@ -2,6 +2,27 @@ body{
     background-color: white;
 }
 
+.bills{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+    
+}
+
+.rams{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+    
+}
+
+
+
+.search-bar{
+    display: none;
+}
 #logo {
     text-decoration: none;
 }
@@ -21,6 +42,7 @@ section{
     padding: 1rem;
     font-size: 1.5rem;
     
+    
 }
 
 header nav {
@@ -28,6 +50,8 @@ header nav {
     justify-content: space-between;
     position: relative;
 }
+
+ /* Kopiert fra forelesning 16.10 */
 .black-btn { 
     display: inline-block;
     padding: 1rem;
@@ -40,7 +64,7 @@ header nav {
 }
 
 article{
-    background-color: #998a8a;
+    background-color: #c5c0c0;
     padding: 1rem;
     font-size: 1.5rem;
     
@@ -51,12 +75,14 @@ header{
     grid-area: header;
     font-weight: 600;
     font-size: 1.5rem;
-    margin-top: 20px;
+    margin-top: 10px;
+    background-color: #9b9b9b;
 }
 main{
     grid-area: main;
     background-color: #efefef;
     font-size: 1.5rem;
+   
 }
 
 main section img{
@@ -102,16 +128,30 @@ footer{
     }
 
     body main section article h2{
-        display: none;
+        
     }
 
-    .flex-header{
-        
-        
-    }
+    
 
     main section article p{
         font-size: 5rem;
+    }
+
+    .flex-main{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .search-bar{
+        display: block;
+        text-align: center;
+        background-color: #171717;
+        color: #efefef;
+    }
+
+    #clown{
+        display: none;
     }
 
     
